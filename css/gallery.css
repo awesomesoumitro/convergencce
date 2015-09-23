@@ -69,6 +69,7 @@ div .fb
 	margin:10px;
 	float:left;
 	height:auto;
+    background-image= 
 }
 
 div .twit
@@ -76,4 +77,13 @@ div .twit
 	margin:10px;
 	float:left;
 
+}
+
+div.sponsors{
+  right:0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  float: right;
+  background-color:red;
 }
