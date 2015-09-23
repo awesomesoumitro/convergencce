@@ -9,7 +9,7 @@ body {
 	margin: 50px auto;
 }
 
-#columns {
+.columns {
 	-webkit-column-count: 3;
 	-webkit-column-gap: 10px;
 	-webkit-column-fill: auto;
@@ -55,7 +55,7 @@ body {
 }
 
 @media (min-width: 960px) {
-	#columns {
+	.columns {
 		-webkit-column-count: 4;
 		-moz-column-count: 4;
 		column-count: 4;
