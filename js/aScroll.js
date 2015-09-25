@@ -18,7 +18,7 @@ function autoScrollTo(el) {
 	    }
 	}
 }
-function resetScroller(el){
+/*function resetScroller(el){
 	var currentY = window.pageYOffset;
     var targetY = document.getElementById(el).offsetTop;
 	var animator = setTimeout('resetScroller(\''+el+'\')',speed);
@@ -28,4 +28,4 @@ function resetScroller(el){
 	} else {
 		clearTimeout(animator);
 	}
-}
+}*/

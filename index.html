@@ -1,53 +1,46 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta charset="utf-8">
-<title>Convergence 2015</title>
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<link href="css/gallery.css" rel="stylesheet" type="text/css" />
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script src="js/modernizr.custom.97074.js"></script>
-<!--MAP Integration-->
- <style>
-      #map {
-        width: 900px;
-        height: 500px;
-		float: right;
-		right: 0px;
-      }
-	 </style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Convergence 2015</title>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css' />
+    <link href="css/gallery.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/modernizr.custom.97074.js"></script>
+    <script src="aScroll.js"></script>
+    <!--MAP Integration-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-		<script type="text/javascript"> 
-			
+    <script type="text/javascript">
+
+
 		function init_map()
-			{				
+			{
 				var myOptions = {zoom:14,center:new google.maps.LatLng(12.966684701995554,77.71181278295899),mapTypeId: google.maps.MapTypeId.ROADMAP};
 				map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
 				marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.966684701995554, 77.71181278295899)});
 				infowindow = new google.maps.InfoWindow({content:"<b>CMRIT</b><br/>AECS Layout , ITPL Main Road <br/>560037 Bangalore" });
 				google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);
-				
-				
+
+
 			}
-			
-			
+
+
 				google.maps.event.addDomListener(window, 'load', init_map);
-		</script>
-<!--MAP INtegration END-->
-<!--Scroll-->
-<script src="js/aScroll.js"></script>
-<!--Scroll END-->
-
+    </script>
+    <!--MAP INtegration END-->
+    <!--Scroll-->
+    <script src="js/aScroll.js"></script>
+    <!--Scroll END-->
 </head>
-
 <body>
     <!--Top Navigation START-->
     <div>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top" id="home">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -59,18 +52,15 @@
                     </button>
                     <a class="navbar-brand" href="/index.html">Convergence 2015</a>
                 </div>
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#foo">Home</a></li>
-                        <li><a href="index.html#foo1">Events</a></li>
-                        <li><a href="#foo2">Show you support</a></li>
-                        <li><a href="#foo3">Contact us!!! </a></li>
-                        <li><a href="#">About</a></li>
-
+                        <li><a href="#home" class="scroll-link" data-id="foo">Home</a></li>
+                        <li><a href="#events" class="scroll-link" data-id="foo1">Events</a></li>
+                        <li><a href="#schedules" class="scroll-link" data-id="foo2">Schedules</a></li>
+                        <li><a href="#comtact" class="scroll-link" data-id="foo3">Contact Us</a></li>
+                        <li><a href="#about" class="scroll-link" data-id="foo4">About</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -78,57 +68,53 @@
     </div>
     <!--Top Navigation END-->
 
-
     <div class="container-fluid" id="foo">
-
-        <!--Carousel START-->
-        <div class="slideshow">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/carousel/house.jpg" alt="Cultura15" />
-                        <div class="carousel-caption">
-                            Cultura 15
+        <div class="contentbox" >
+            <!--Carousel START-->
+            <div class="slideshow">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/carousel/house.jpg" alt="convergence" />
+                            <div class="carousel-caption">
+                                
+                            </div>
                         </div>
+                        <div class="item">
+                            <img src="images/carousel/house.jpg" alt="" />
+                        </div>
+                        CONVERGENCE
                     </div>
-                    <div class="item">
-                        <img src="images/carousel/house.jpg" alt="" />
-                    </div>
-                    CONVERGENCE
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-        <!--Carousel END-->
-        <!--Carousel overlay-->
-        <div class="carousel-caption">
-            <div class="cmrit">
-                <a href="http://cmrit.ac.in/"><img src="images/cmrit.png" width="150px" height="100px" /></a>
-                <p style="font-size:50px;color:#099;font-family:'Poiret One', cursive;"> CONVERGENCE</p>
+            <!--Carousel END-->
+            <!--Carousel overlay-->
+            <div class="carousel-caption">
+                <div class="cmrit">
+                    <a href="http://cmrit.ac.in/"><img src="images/cmrit.png" width="150px" height="100px" /></a>
+                    <p style="font-size:50px;color:#099;font-family:'Poiret One', cursive;"> CONVERGENCE</p>
+                </div>
             </div>
+            <!--Carousel overlay-->
         </div>
-        <!--Carousel overlay-->
-        <div class="row" id="foo1">
-
+        <div class="row" id="foo1" class="contentbox">
             <div class="col-xs-12 col-sm-3">
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -167,7 +153,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -208,7 +193,6 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3">
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -247,7 +231,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -286,10 +269,8 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
             <div class="col-xs-12 col-sm-3">
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -328,7 +309,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -367,10 +347,8 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
             <div class="col-xs-12 col-sm-3">
-
                 <div class="col-xs-6 col-sm-6">
                     <ul class="demo-3">
                         <li>
@@ -409,9 +387,7 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
-
             <!-- Button trigger modal -->
             <!-- Modal 1 -->
             <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
@@ -834,12 +810,11 @@
             </div>
             <!--Modal 21 END-->
 
-
         </div>
         <!--Events Gallery END-->
         <!--Events Gallery END-->
-        <!--Facebook & Twitter -->
-        <div class="row1" id="foo2">
+        <!--Sponsers  -->
+        <div class="row1" id="foo2" class="contentbox">
             <section>
                 <ul id="da-thumbs" class="da-thumbs">
                     <li>
@@ -917,10 +892,9 @@
                 </ul>
             </section>
         </div>
-
         <!--Sponsors END-->
         <!--MAP-->
-        <div class="row" id="foo3">
+        <div class="row" id="foo3" class="contentbox">
             <div id="map">
                 <div style="overflow:hidden;height:500px;width:900px;">
                     <div id="gmap_canvas" style="height:500px;width:900px;"></div>
@@ -935,10 +909,9 @@
             </div>
         </div>
         <!--MAP END-->
-        <div class="footer">
+        <div class="footer" id="foo5" class="contentbox">
             <div>
                 <div class="fb">
-
                     <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fonestepcmr&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:300px; height:430px; background: black; float:left; " allowtransparency="true"></iframe>
                 </div>
                 <div class="twit">
@@ -946,37 +919,51 @@
                        width="300"
                        height="450">Tweets</a>
                     <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-
                 </div>
             </div>
 
-
         </div>
     </div>
-    <footer class="footer-distributed">
+    <footer class="footer-distributed" id="foo4">
         <div class="footer-left">
             <h3>CMRIT<span>logo</span></h3>
             <p class="footer-links">
                 <a href="#">Home</a>
-                    <a href="#">Events</>
-                <a href="#">Show ur Support!!</a>
-                               <a href="#">Contact Us</a>
-                             <a href="#">About Us</a>
+
+                ·
+
+                <a href="#">
+                    Events</>
+
+                    ·
+
+                    <a href="#">Show ur Support!!</a>
+
+                    ·
+
+                    <a href="#">Contact Us</a>
+
+                    ·
+
+                    <a href="#">About Us</a>
+                </a>
             </p>
             <p class="footer-company-name">CONVERGENCE &copy; 2015. All Rights Reserved.</p>
         </div>
         <div class="footer-center">
             <div>
                 <i class="Location"></i>
-                <p><span>CMR Institute of Technology </br>132 AECS Layout </br>ITPL Main Road, Kundalahalli </br> 560037 Bangalore</span> Karnataka, India</p>
+                <p><span>CMR Institute of Technology </br>132 AECS Layout </br>ITPL Main Road, Kundalahalli </br> 560037 Bangalore </br></span> Karnataka, India </br></p>
             </div>
+
             <div>
                 <i class="phone"></i>
                 <p>+91 80 28524466 / 77</p>
             </div>
+
             <div>
                 <i class="envelope"></i>
-                <p><a href="mailto:support@company.com">info@cmrit.ac.in</a></p>
+                <p><a href="mailTo">info@cmrit.ac.in</a></p>
             </div>
         </div>
         <div class="footer-right">
@@ -992,12 +979,11 @@
             </div>
         </div>
     </footer>
-
-            <script src="js/jquery-2.1.4.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-            <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-            <script type="text/javascript">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript">
                 $(function () {
 
                     $(' #da-thumbs > li ').each(function () {
@@ -1007,8 +993,42 @@
                     });
 
                 });
-            </script>
-        </div>
-    </footer>
+    </script>
+    <script type="text/javascript">
+$(document).ready(function() {
+	// navigation click actions
+	$('.scroll-link').on('click', function(event){
+		event.preventDefault();
+		var sectionID = $(this).attr("data-id");
+		scrollToID('#' + sectionID, 750);
+	});
+	// scroll to top action
+	$('.scroll-top').on('click', function(event) {
+		event.preventDefault();
+		$('html, body').animate({scrollTop:0}, 'slow');
+	});
+	// mobile nav toggle
+	$('#nav-toggle').on('click', function (event) {
+		event.preventDefault();
+		$('#main-nav').toggleClass("open");
+	});
+});
+// scroll function
+function scrollToID(id, speed){
+	var offSet = 50;
+	var targetOffset = $(id).offset().top - offSet;
+	var mainNav = $('#main-nav');
+	$('html,body').animate({scrollTop:targetOffset}, speed);
+	if (mainNav.hasClass("open")) {
+		mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+		mainNav.removeClass("open");
+	}
+}
+if (typeof console === "undefined") {
+    console = {
+        log: function() { }
+    };
+}
+    </script>
 </body>
 </html>

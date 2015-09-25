@@ -232,7 +232,6 @@ div.sponsors{
 }
 
 /*GALLERY ENDS*/
-
 .map-overlay
 {
 	position:absolute;
@@ -241,13 +240,6 @@ div.sponsors{
 	left:20%;
 }
 
-#map {
-        width: 900px;
-        height: 500px;
-		float: right;
-		right: 0px;
-      }
-	  
 #footer
 {
 	background:#232121;

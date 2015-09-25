@@ -9,6 +9,18 @@ body{
 
 	
 }
+#carousel-example-generic .carousel-caption {
+    background: #000000;
+    bottom: 14%;
+    float: left;
+    left: 0;
+    opacity: 0.8;
+    padding: 30px 60px 35px;
+    right: inherit;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+}
 	
 #columns {
 	-webkit-column-count: 3;
