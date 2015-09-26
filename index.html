@@ -16,23 +16,7 @@
     <link rel="stylesheet" href="css/style.css" /> <!-- Resource style -->
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-    <script type="text/javascript">
-
-
-		function init_map()
-			{
-				var myOptions = {zoom:14,center:new google.maps.LatLng(12.966684701995554,77.71181278295899),mapTypeId: google.maps.MapTypeId.ROADMAP};
-				map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-				marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.966684701995554, 77.71181278295899)});
-				infowindow = new google.maps.InfoWindow({content:"<b>CMRIT</b><br/>AECS Layout , ITPL Main Road <br/>560037 Bangalore" });
-				google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);
-
-
-			}
-
-
-				google.maps.event.addDomListener(window, 'load', init_map);
-    </script>
+    
     <!--MAP INtegration END-->
     <!--Scroll-->
     <script src="js/aScroll.js"></script>
@@ -40,8 +24,8 @@
 </head>
 <body>
     <!--Top Navigation START-->
-    <div>
-        <nav class="navbar navbar-default navbar-fixed-top" id="home">
+    <div style="background-color:black;">
+        <nav class="navbar navbar-default navbar-fixed-top" id="home" >
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -69,12 +53,13 @@
     </div>
     <!--Top Navigation END-->
     <div class="try">
-        <ul class="bmenu">
-            <li><a href="#home" class="scroll-link" data-id="foo">Home</a></li>
-            <li><a href="#events" class="scroll-link" data-id="foo1">Events</a></li>
-            <li><a href="#schedules" class="scroll-link" data-id="foo2">Schedules</a></li>
-            <li><a href="#comtact" class="scroll-link" data-id="foo3">Contact Us</a></li>
-            <li><a href="#about" class="scroll-link" data-id="foo4">About</a></li>
+        <ul class="bmenu" style="margin-top:100px;">
+
+            <li><a href="#home" class="scroll-link" data-id="foo" style="font-family:'Poiret One', cursive; font-weight:bold; text-decoration: none;">Home</a></li>
+            <li><a href="#events" class="scroll-link" data-id="foo1" style="font-family:'Poiret One', cursive; font-weight:bold; text-decoration: none;">Events</a></li>
+            <li><a href="#schedules" class="scroll-link" data-id="foo2" style="font-family:'Poiret One', cursive; font-weight:bold; text-decoration: none;">Schedules</a></li>
+            <li><a href="#comtact" class="scroll-link" data-id="foo3" style="font-family:'Poiret One', cursive; font-weight:bold; text-decoration: none;">Contact Us</a></li>
+            <li><a href="#about" class="scroll-link" data-id="foo4" style="font-family:'Poiret One', cursive; font-weight:bold; text-decoration: none;">About</a></li>
         </ul>
     </div>
 
@@ -920,7 +905,69 @@ No.132, AECS Layout, Kundalahalli, ITPL Main Road
 Bengaluru, Karnataka 560037    Vamsi Sai T  809098098098,email-dsasdfasdfasd@gmail.com--</address>
         </section>
         <!--MAP END-->
-
+    <div class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-sm-offset-1">
+                    <h2>Registrations</h2>
+                    <div class="contact-text">
+                        <address>
+                            Co-ordinator: Shriyanshi<br />
+                            E-mail: rajshriyanshi@gmail.com<br />
+                            Phone: +91 819-222-2661
+                        </address>
+                    </div>
+                    <div class="contact-address">
+                        <address>
+                            Coordinator: Vamsi Sai<br />
+                            E-mail: tvamsisai@gmail.com<br />
+                            Phone: +91 963-252-2714
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <h2>Chief Coordinators</h2>
+                    <div class="contact-text">
+                        <address>
+                            Coordinator: Keerthi<br />
+                            E-mail: keerthi23.94@gmail.com<br />
+                            Phone: +91 973-913-9890
+                        </address>
+                    </div>
+                    <div class="contact-address">
+                        <address>
+                            Coordinator: Medha<br />
+                            E-mail: seth.medha@gmail.com<br />
+                            Phone: +91 988-632-5202
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div id="contact-section">
+                        <h2>Send a message</h2>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="contact.php" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Name" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Email ID" />
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary pull-right">Send</button>
+                                <button type="reset" class="btn btn-primary pull-right">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FORM SECTION ENDS -->
+    </div>
     <footer class="footer-distributed" id="foo4">
         <div class="footer-left">
             <h3>CMRIT<span>logo</span></h3>

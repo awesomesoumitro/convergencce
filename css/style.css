@@ -43,12 +43,12 @@
 
 body{
 	
-	background:#100007;
+	background-color:black;
 }
 .row
 {
 	/*background-image:url(../images/DARK.jpg);*/
-	background:#111D13;
+	background-color:black;
 }
 	
 #columns {
