@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Convergence 2015</title>
+	<link rel="shortcut icon" href="images/logo.png">
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css' />
     <link href="css/gallery.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -27,7 +28,7 @@
     <link rel="stylesheet" href="css/templatemo-style.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css" />
-   
+ 
         <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     
@@ -39,6 +40,34 @@
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
 	<!-- End WOWSlider.com HEAD section --></head>
 <body>
     <!--Top Navigation START-->
@@ -52,7 +81,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Convergence</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,28 +95,11 @@
                     <li><a href="#about" class="scroll-link" data-id="foo4">About</a></li>
                 </ul>
             </div>
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/chrysanthemum.jpg" alt="Chrysanthemum" title="Chrysanthemum" id="wows0_0"/></li>
-		<li><img src="data0/images/desert.jpg" alt="Desert" title="Desert" id="wows0_1"/></li>
-		<li><a href="http://wowslider.com/vi"><img src="data0/images/hydrangeas.jpg" alt="image slider" title="Hydrangeas" id="wows0_2"/></a></li>
-		<li><img src="data0/images/jellyfish.jpg" alt="Jellyfish" title="Jellyfish" id="wows0_3"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Chrysanthemum"><span><img src="data0/tooltips/chrysanthemum.jpg" alt="Chrysanthemum"/>1</span></a>
-		<a href="#" title="Desert"><span><img src="data0/tooltips/desert.jpg" alt="Desert"/>2</span></a>
-		<a href="#" title="Hydrangeas"><span><img src="data0/tooltips/hydrangeas.jpg" alt="Hydrangeas"/>3</span></a>
-		<a href="#" title="Jellyfish"><span><img src="data0/tooltips/jellyfish.jpg" alt="Jellyfish"/>4</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.6</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section --><!-- /.navbar-collapse -->
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container-fluid -->
+        
+	
+	
     </nav>
 
     <!--Top Navigation END-->
@@ -95,36 +107,7 @@
         <div class="contentbox">
             <!--Carousel START-->
             <div class="slideshow">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="images/carousel/house.jpg" alt="convergence" />
-                            <div class="carousel-caption">
-
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/carousel/house.jpg" alt="" />
-                        </div>
-                        CONVERGENCEs
-                    </div>
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+				
                 <div class="main-text hidden-xs">
                     <div class="col-md-12 text-center">
                         <a href="http://cmrit.ac.in/">
@@ -140,706 +123,7 @@
         </div>
             <!--Carousel overlay-->
         </div>
-        <div class="row" id="foo1" class="contentbox">
-            <div class="col-xs-12 col-sm-3">
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal1">
-                                    <img src="images/Events/trophy.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>CMR, Innovation Award</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal2">
-                                    <img src="images/Events/better bangalore.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Ideas for better bangalore</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal3">
-                                    <img src="images/Events/project demostration.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Project demonstration</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal4">
-                                    <img src="images/Events/cards.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Card Building</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal15">
-                                    <img src="images/Events/code.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Coding & Debugging </h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal6">
-                                    <img src="images/Events/make it work.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Make it work</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal7">
-                                    <img src="images/Events/trophy.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>CMR, Innovation Award</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal8">
-                                    <img src="images/Events/better bangalore.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Ideas for better bangalore</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal9">
-                                    <img src="images/Events/project demostration.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Project demonstration</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal10">
-                                    <img src="images/Events/cards.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Card Building</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal11">
-                                    <img src="images/Events/code.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Coding & Debugging </h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal12">
-                                    <img src="images/Events/make it work.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Make it work</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal13">
-                                    <img src="images/Events/trophy.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>CMR, Innovation Award</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal4">
-                                    <img src="images/Events/better bangalore.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Ideas for better bangalore</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal5">
-                                    <img src="images/Events/project demostration.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Project demonstration</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal16">
-                                    <img src="images/Events/cards.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Card Building</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal17">
-                                    <img src="images/Events/code.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Coding & Debugging </h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal8">
-                                    <img src="images/Events/make it work.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Make it work</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-                <div class="col-xs-6 col-sm-6">
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal19">
-                                    <img src="images/Events/trophy.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>CMR, Innovation Award</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal20">
-                                    <img src="images/Events/better bangalore.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Ideas for better bangalore</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                    <ul class="demo-3">
-                        <li>
-                            <figure>
-                                <a href="#" data-toggle="modal" data-target="#myModal21">
-                                    <img src="images/Events/project demostration.jpg" alt="" />
-                                    <figcaption>
-                                        <h1>Project demonstration</h1>
-                                    </figcaption>
-                                </a>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Button trigger modal -->
-            <!-- Modal 1 -->
-            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel1">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 1 END-->
-            <!-- Modal 2 -->
-            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel2">Card Building</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                Card Building
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 2 END-->
-            <!-- Modal 3 -->
-            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel3">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 3 END-->
-            <!-- Modal 4 -->
-            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel4">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 4 END-->
-            <!-- Modal 5 -->
-            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel5">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 5 END-->
-            <!-- Modal 6 -->
-            <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel6">Card Building</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                Card Building
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 6 END-->
-            <!-- Modal 7 -->
-            <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel7">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 7 END-->
-            <!-- Modal 8 -->
-            <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel8">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 8 END-->
-            <!-- Modal 9 -->
-            <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel9">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel9">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 9 END-->
-            <!-- Modal 10 -->
-            <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel10">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel10">Card Building</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                Card Building
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 10 END-->
-            <!-- Modal 11 -->
-            <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel11">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel11">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 11 END-->
-            <!-- Modal 12 -->
-            <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel12">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel12">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 12 END-->
-            <!-- Modal 13 -->
-            <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel13">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel13">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 13 END-->
-            <!-- Modal 14 -->
-            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel4">Card Building</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                Card Building
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 14 END-->
-            <!-- Modal 15 -->
-            <div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel15">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel5">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 15 END-->
-            <!-- Modal 16 -->
-            <div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel16">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 16 END-->
-            <!-- Modal 17 -->
-            <div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel17">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 17 END-->
-            <!-- Modal 18 -->
-            <div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel18">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel18">Card Building</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                Card Building
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 18 END-->
-            <!-- Modal 19 -->
-            <div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel19">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel19">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 19 END-->
-            <!-- Modal 20 -->
-            <div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel20">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel20">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 20 END-->
-            <!-- Modal 21 -->
-            <div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel21">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel21">CMR Innovation Award</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                CMR Innovation Award
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Modal 21 END-->
-
-        </div>
-        <!--Events Gallery END-->
-        <!--Events Gallery END-->
+        
         <!--Sponsers  -->
         <div class="row1" id="foo2" class="contentbox">
             <section>
@@ -921,6 +205,705 @@
         </div>
         <!--Sponsors END-->
         <!--MAP-->
+    <div class="row" id="foo1" class="contentbox">
+        <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal1">
+                                <img src="images/Events/trophy.jpg" alt="" />
+                                <figcaption>
+                                    <h1>CMR, Innovation Award</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal2">
+                                <img src="images/Events/better bangalore.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Ideas for better bangalore</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal3">
+                                <img src="images/Events/project demostration.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Project demonstration</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal4">
+                                <img src="images/Events/cards.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Card Building</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal15">
+                                <img src="images/Events/code.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Coding & Debugging </h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal6">
+                                <img src="images/Events/make it work.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Make it work</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal7">
+                                <img src="images/Events/trophy.jpg" alt="" />
+                                <figcaption>
+                                    <h1>CMR, Innovation Award</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal8">
+                                <img src="images/Events/better bangalore.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Ideas for better bangalore</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal9">
+                                <img src="images/Events/project demostration.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Project demonstration</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal10">
+                                <img src="images/Events/cards.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Card Building</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal11">
+                                <img src="images/Events/code.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Coding & Debugging </h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal12">
+                                <img src="images/Events/make it work.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Make it work</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal13">
+                                <img src="images/Events/trophy.jpg" alt="" />
+                                <figcaption>
+                                    <h1>CMR, Innovation Award</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal4">
+                                <img src="images/Events/better bangalore.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Ideas for better bangalore</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal5">
+                                <img src="images/Events/project demostration.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Project demonstration</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal16">
+                                <img src="images/Events/cards.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Card Building</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal17">
+                                <img src="images/Events/code.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Coding & Debugging </h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal8">
+                                <img src="images/Events/make it work.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Make it work</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-6">
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal19">
+                                <img src="images/Events/trophy.jpg" alt="" />
+                                <figcaption>
+                                    <h1>CMR, Innovation Award</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal20">
+                                <img src="images/Events/better bangalore.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Ideas for better bangalore</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="demo-3">
+                    <li>
+                        <figure>
+                            <a href="#" data-toggle="modal" data-target="#myModal21">
+                                <img src="images/Events/project demostration.jpg" alt="" />
+                                <figcaption>
+                                    <h1>Project demonstration</h1>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+        <!-- Modal 1 -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel1">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 1 END-->
+        <!-- Modal 2 -->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel2">Card Building</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Card Building
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 2 END-->
+        <!-- Modal 3 -->
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel3">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 3 END-->
+        <!-- Modal 4 -->
+        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel4">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 4 END-->
+        <!-- Modal 5 -->
+        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel5">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 5 END-->
+        <!-- Modal 6 -->
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel6">Card Building</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Card Building
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 6 END-->
+        <!-- Modal 7 -->
+        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel7">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 7 END-->
+        <!-- Modal 8 -->
+        <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel8">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 8 END-->
+        <!-- Modal 9 -->
+        <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel9">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel9">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 9 END-->
+        <!-- Modal 10 -->
+        <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel10">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel10">Card Building</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Card Building
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 10 END-->
+        <!-- Modal 11 -->
+        <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel11">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel11">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 11 END-->
+        <!-- Modal 12 -->
+        <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel12">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel12">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 12 END-->
+        <!-- Modal 13 -->
+        <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel13">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel13">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 13 END-->
+        <!-- Modal 14 -->
+        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel4">Card Building</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Card Building
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 14 END-->
+        <!-- Modal 15 -->
+        <div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel15">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel5">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 15 END-->
+        <!-- Modal 16 -->
+        <div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel16">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 16 END-->
+        <!-- Modal 17 -->
+        <div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel17">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 17 END-->
+        <!-- Modal 18 -->
+        <div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel18">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel18">Card Building</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Card Building
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 18 END-->
+        <!-- Modal 19 -->
+        <div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel19">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel19">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 19 END-->
+        <!-- Modal 20 -->
+        <div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel20">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel20">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 20 END-->
+        <!-- Modal 21 -->
+        <div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel21">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel21">CMR Innovation Award</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            CMR Innovation Award
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 21 END-->
+    </div>
+    <!--Events Gallery END-->
+    <!--Events Gallery END-->
         <section id="cd-google-map">
             <div id="google-container"></div>
             
@@ -1067,6 +1050,6 @@ if (typeof console === "undefined") {
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
+
 </body>
 </html>
