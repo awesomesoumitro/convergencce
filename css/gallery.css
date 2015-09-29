@@ -1,15 +1,23 @@
-body{
+.body{
 	
-	background-image:url();
-}
+	width:800px;
 
+}
+.row1 {
+}
+.row2 {
+}
 .row
 {
-	/*background-image:url(../images/DARK.jpg);*/
-	background-color:black;
-
-	
+	    font-size:larger;
 }
+.convergence {
+height:100%;
+}
+    .row image {
+    height:680px;
+    width:1300px;	
+    }
 #carousel-example-generic .carousel-caption {
     background: #000000;
     bottom: 14%;
@@ -386,7 +394,7 @@ div.sponsors{
 .main-text
 {
     position: absolute;
-    top:450px;
+    top:290px;
     width: 96.66666666666666%;
    
 }
